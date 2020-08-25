@@ -1,0 +1,27 @@
+{
+  "name": "nexus-testing",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nexus dev",
+    "build": "nexus build",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "globals": {
+      "ts-jest": {
+        "diagnostics": { "warnOnly": true }
+      }
+    },
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "nexus": "^0.26.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.2.0"
+  }
+}
