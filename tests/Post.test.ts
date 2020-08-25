@@ -20,7 +20,7 @@ it('ensures that a draft can be created and published', async () => {
     Object {
       "createDraft": Object {
         "body": "...",
-        "id": 1,
+        "id": 2,
         "published": false,
         "title": "Nexus",
       },
@@ -46,7 +46,7 @@ it('ensures that a draft can be created and published', async () => {
     Object {
       "publish": Object {
         "body": "...",
-        "id": 1,
+        "id": 2,
         "published": true,
         "title": "Nexus",
       },

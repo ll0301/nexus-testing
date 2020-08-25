@@ -16,7 +16,10 @@ scalar Json
 
 type Mutation {
   createDraft(body: String!, title: String!): Post
+  logOutUser(email: String!, password: String!): User
   publish(draftId: Int!): Post
+  signInUser(email: String!, password: String!): User
+  signUpUser(email: String!, password: String!): User
 }
 
 type Post {
@@ -28,4 +31,12 @@ type Post {
 
 type Query {
   drafts: [Post!]
+  signInUsers: [User!]
+}
+
+type User {
+  email: String
+  id: String
+  isSignIn: Boolean
+  password: String
 }

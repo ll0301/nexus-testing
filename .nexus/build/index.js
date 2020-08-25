@@ -18,6 +18,7 @@ process.once('unhandledRejection', error => {
 });
 // Import the user's Nexus modules
 require("./api/graphql/Post");
+require("./api/graphql/User");
 // Import the user's app module
 require("./api/app");
 nexus_1.default.assemble();
