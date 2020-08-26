@@ -5,24 +5,24 @@
 * [Nexus Framework Docs](https://nexusjs.org, "nexus framework")
 
 # description
-nexus - framework을 사용해보면서 @nexus/schema - 라이브러리를 비교하기 위한 example입니다. 
+nexus - framework으로 without database test 구현한 예제입니다. 
 
-* Start 
+* 초기 셋팅
 ~~~
 yarn 
 ~~~
 
-* Run nexus build
+* Run nexus build - 쿼리, 뮤테이션, 오브젝트 등을 등록 
 ~~~
 yarn build
 ~~~
 
-* Run jest
+* Run jest - jest test 실행
 ~~~
 yarn test
 ~~~
 
-* Run playground 
+* Run playground - play ground 실행
 ~~~
 yarn dev
 ~~~
